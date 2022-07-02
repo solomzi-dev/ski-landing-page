@@ -27,7 +27,6 @@ a {
 
 .btn {
     display: inline-block;
-    width: 90px;
     border: none;
     border-radius: 6px;
     padding: 5px 15px;
@@ -35,10 +34,15 @@ a {
     color: #fff;
     text-align: center;
     font-weight: bold;
+    font-size: 17px;
 }
 
 ul {
     list-style: none;
+}
+
+img {
+    width: 100%;
 }
 
 /* Navigation */
@@ -49,7 +53,8 @@ ul {
     height: 70px;
 }
 
-.site-logo {
+img.site-logo {
+    width: auto;
     height: 20px;
 }
 
@@ -64,4 +69,85 @@ ul {
 
 .login-links .sign-in {
     margin-right: 20px;
+}
+
+/* Header Section */
+section.header-section {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-txt {
+    width: 40%;
+}
+
+h1.hero-header{
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p.hero-txt {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+form.subscribe  input {
+    width: 300px;
+    padding: 10px 8px;
+    border-radius: 3px;
+    background-color: transparent;
+    margin: 0 10px 20px 0;
+}
+
+form.subscribe button {
+    padding: 10px 16px;
+}
+
+.header-img img {
+    height: 600px;
+}
+
+/* Feature section */
+.feature-container {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-container p {
+    color: rgba(255, 255, 255, .7);
+}
+
+h3.feature-header {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+p.feature-text {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.feature-svg {
+    fill: #3c7eff;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 290px;
+}
+
+.box h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
 }
