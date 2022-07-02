@@ -122,9 +122,10 @@ form.subscribe button {
     color: rgba(255, 255, 255, .7);
 }
 
-h3.feature-header {
+h3.feature-header, .pricing-header {
     font-size: 32px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 p.feature-text {
@@ -150,4 +151,75 @@ p.feature-text {
     font-size: 18px;
     font-weight: bold;
     margin: 15px 0;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 0;
+}
+
+.pricing p {
+    color: rgba(255, 255, 255, .7);
+}
+
+.pricing-text {
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.inputs label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.price-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-box {
+    width: 350px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1b1c1d;
+}
+
+.price-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.price-box ul {
+    margin: 30px 0;
+}
+
+.price-box ul li {
+    margin-bottom: 15px;
+}
+
+.price-box button {
+    width: 100%;
+    padding: 10px 13px;
+}
+
+.price-box .free-btn {
+    background-color: #ffffff;
+    color: #1b1c1d;
+}
+
+.pro-box {
+    border: rgba(255, 255, 255, .7) solid 1px;
+    background: none;
+}
+
+.pro-box i {
+    color: #3c7eff;
 }
